@@ -36,7 +36,7 @@ Edit the src/main/resources/application.properties file to configure your MongoD
 ```
 spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
-spring.data.mongodb.database=mymongodb
+spring.data.mongodb.database=BlackCofferDB
 spring.mail.host=localhost
 ```
 ### Build and run the application:
@@ -62,7 +62,10 @@ Install dependencies:
 Start the development server:
 
 
-```npm start```
+```
+npm run build
+npm run preview
+```
 
 Access the frontend application:
 The frontend server will be running at http://localhost:3000.
